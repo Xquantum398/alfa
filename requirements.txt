@@ -1,0 +1,10 @@
+flask
+requests
+gunicorn[gevent]
+python-dotenv
+cachetools
+PySocks
+psutil
+flask-socketio
+gevent-websocket
+urllib3
