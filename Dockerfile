@@ -7,7 +7,7 @@ WORKDIR /app
 # Copia i file necessari
 COPY requirements.txt .
 COPY app.py .
-RUN git clone https://github.com/Xquantum398/alfa.git .
+
 # Installa le dipendenze
 RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
