@@ -33,7 +33,7 @@ def resolve_m3u8_link(url, headers=None):
 
     print(f"Tentativo di risoluzione URL: {url}")
     # Utilizza gli header forniti, altrimenti usa un User-Agent di default
-    current_headers = headers if headers else {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0+Safari/537.36'}
+    current_headers = headers if headers else {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36'}
 
     initial_response_text = None
     final_url_after_redirects = None
@@ -176,9 +176,9 @@ def proxy_m3u():
         return "Errore: Parametro 'url' mancante", 400
 
     default_headers = {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15",
-        "Referer": "https://www.ksohls.ru/",
-        "Origin": "https://www.ksohls.ru/"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+        "Referer": "https://inattv1269.xyz/",
+        "Origin": "https://inattv1269.xyz/"
     }
 
     # Estrai gli header dalla richiesta, sovrascrivendo i default
