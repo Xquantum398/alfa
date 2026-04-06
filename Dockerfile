@@ -4,14 +4,14 @@ FROM python:3.12-slim
 # Installa git e certificati SSL
 RUN apt-get update && apt-get install -y \
     git \
-    ca-certificates \ 
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
 # Imposta la directory di lavoro
 WORKDIR /app
 
 # Clona il repository GitHub
-RUN git clone https://github.com/Xquantum398/alfa .
+RUN git clone https://github.com/nzo66/tvproxy .
 
 # Installa le dipendenze
 RUN pip install --upgrade pip
