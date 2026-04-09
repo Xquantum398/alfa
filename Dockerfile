@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Clona il repository GitHub
-RUN git clone https://github.com/Xquantum398/alfa .
+RUN git clone https://github.com/nzo66/tvproxy .
 
 # Installa le dipendenze
 RUN pip install --upgrade pip
