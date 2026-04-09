@@ -228,8 +228,8 @@ def proxy_m3u():
 
     default_headers = {
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/33.0 Mobile/15E148 Safari/605.1.15",
-        "Referer": "https://vavoo.to/",
-        "Origin": "https://vavoo.to"
+        "Referer": "https://inattv1289.xyz/",
+        "Origin": "https://inattv1289.xyz/"
     }
 
     # Estrai gli header dalla richiesta, sovrascrivendo i default
