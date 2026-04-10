@@ -155,7 +155,7 @@ def process_daddylive_url(url):
     match_premium = re.search(r'/premium(\d+)/mono\.m3u8$', url)
     if match_premium:
         channel_id = match_premium.group(1)
-        new_url = f"https://daddylive.mp/watch/stream-{channel_id}.php"
+        new_url = f"https://3e8.d72577a9dd0ec47.sbs/-{channel_id}.php"
         print(f"URL processato da {url} a {new_url}")
         return new_url
 
@@ -165,7 +165,7 @@ def process_daddylive_url(url):
 
     # Se contiene solo numeri, crea URL watch
     if url.isdigit():
-        return f"https://daddylive.mp/watch/stream-{url}.php"
+        return f"https://3e8.d72577a9dd0ec47.sbs/-{url}.php"
 
     return url
 
